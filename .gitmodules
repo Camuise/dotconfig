@@ -1,0 +1,3 @@
+[submodule "spicetify/CustomApps/visualizer"]
+	path = spicetify/CustomApps/visualizer
+	url = https://github.com/Konsl/spicetify-visualizer.git
