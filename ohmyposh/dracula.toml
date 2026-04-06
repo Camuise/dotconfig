@@ -86,6 +86,25 @@ final_space = true
 
     [blocks.segments.properties]
       fetch_package_manager = true
+    
+  [[blocks.segments]]
+    style = "powerline"
+    template = "  {{ .Full }} "
+    powerline_symbol = ""
+    foreground = "#193549"
+    background = "#99908a"
+    type = "rust"
+    
+    [blocks.segments.properties]
+      fetch_package_manager = true
+
+  [[blocks.segments]]
+    type = "java"
+    style = "powerline"
+    powerline_symbol = ""
+    foreground = "#ffffff"
+    background = "#4063D8"
+    template = "  {{ .Full }}"
 
   [[blocks.segments]]
     style = 'plain'
